@@ -74,12 +74,6 @@
       color: white;
     }
 
-    .right {
-        position: fixed;
-        right: 1rem;
-        padding-left: 2vw;
-    }
-
     @media only screen and (min-width : 961px) {
       .right {
         position: fixed;
@@ -254,16 +248,16 @@
       color: white;
     }
 
+    html {
+      overscroll-behavior: none;
+    }
+
     
   </style>
 
 </head>
 
-<script>
-
-</script>
-
-<body class="phonescreen" style="overscroll-behavior: none;">
+<body style="overscroll-behavior: none;">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbarstyle sticky-top" style="padding: 1px 10px 0px 15px;">
     <span texthov><a class="ktp cardo-bold texthov" style="padding-left: 1vw;" href="#">&Kappa;&Theta;&Pi;</a>
